@@ -116,4 +116,4 @@ async def remind_assignee(ctx, task_id):
     send_email(assignee.email, message)
     await ctx.send(f"Reminder sent to {assignee.name}.")
 
-bot.run(os.environ['MTA3NzA1MDA2NDY5NTk4ODIyNA.GMB8db.Qv6udUCx6f7iW8QRhtEf5w-54ls4ePhVBv5gnY'])
+bot.run(os.environ['your token'])
